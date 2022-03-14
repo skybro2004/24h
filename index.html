@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>
+            title
+        </title>
+        <link rel="stylesheet" type="text/css" href="./css/font.css">
+        <link rel="stylesheet" type="text/css" href="./css/index.css">
+    </head>
+    <body>
+        <header>
+
+        </header>
+
+
+
+        <div class="clock">
+            <h1 class="hour">--</h1>
+            <h1 class="colon">:</h1>
+            <h1 class="minute">--</h1>
+        </div>
+
+
+
+        <button onclick="fadein()">fadein</button>
+        <button onclick="fadeout()">fadeout</button>
+        <button onclick="debugplay()">debug</button>
+        <button onclick="settime7()">settime7</button>
+        <footer>
+            <div class="controll">
+                <button class="play paused" onclick="turnon()"></button>
+                <input type="range" min="0" max="100" value="50" onchange="volumeChange(this.value)">
+            </div>
+
+            <button class="fullscreen" onclick="fullscreen()">fullscreenIcon</button>
+        </footer>
+        <script type="text/javascript" src="./js/index.js"></script>
+    </body>
+</html>

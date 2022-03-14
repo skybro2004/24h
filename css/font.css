@@ -1,0 +1,31 @@
+@font-face{
+    font-family: "신디나루";
+    src: url(../font/a신디나루M.ttf);
+    font-weight: normal;
+}
+@font-face{
+    font-family: "신디나루";
+    src: url(../font/a신디나루B.ttf);
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: "영고딕";
+    src: url(../font/a영고딕L.ttf);
+    font-weight: lighter;
+}
+@font-face{
+    font-family: "영고딕";
+    src: url(../font/a영고딕M.ttf);
+    font-weight: normal;
+}
+@font-face{
+    font-family: "영고딕";
+    src: url(../font/a영고딕B.ttf);
+    font-weight: bold;
+}
+@font-face{
+    font-family: "영고딕";
+    src: url(../font/a영고딕E.ttf);
+    font-weight: bolder;
+}
